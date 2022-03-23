@@ -1,0 +1,114 @@
+body
+{
+	background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6rem 5rem 4rem;
+    gap: 2rem;
+}
+.hero-area .text-area,.hero-area .button-box{
+    flex: 1;
+}
+.hero-area h2{
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: #d0d6f9;
+    font-weight: 400;
+    font-family: "Barlow Condensed";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.hero-area h1{
+    font-size: 150px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Bellefair";
+    text-transform: uppercase;
+}
+.hero-area p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+    font-weight: 400;
+    font-family: "Barlow";
+    max-width: 29rem;
+}
+.hero-area .button-box{
+    display: flex;
+    justify-content: center;
+}
+.hero-area .button-box a{
+    pointer-events: none;
+}
+.hero-area .button-box button{
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #0b0d17;
+    font-weight: 400;
+    font-family: "Bellefair";
+    text-transform: uppercase;
+    margin-top: 4rem;
+    border: none;
+    cursor: pointer;
+    pointer-events: all;
+    box-shadow: none;
+    transition: 0.2s ease-in-out;
+}
+.hero-area .button-box button:hover{
+    box-shadow: 0px 0px 0px 47px #ffffff30;
+}
+@media only screen and (max-width: 900px){
+    body{
+        background-image: url("../assets/home/background-home-tablet.jpg");
+    }
+    .hero-area{
+        flex-direction: column;
+        margin: 5rem 5rem 4rem;
+    }
+    .hero-area .text-area{
+        text-align: center;
+    }
+    .hero-area .button-box button{
+        width: 230px;
+        height: 230px;
+        margin-top: 7rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        background-image: url("../assets/home/background-home-mobile.jpg");
+    }
+    .hero-area{
+        margin: 0rem 1rem 1rem;
+    }
+    .hero-area h2{
+        font-size: 16px;
+    letter-spacing: 3px;
+    }
+    .hero-area h1{
+        font-size: 80px;
+    line-height: 100px;
+    }
+    .hero-area p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .hero-area .button-box button{
+        width: 150px;
+        height: 150px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-top: 2rem;
+    }
+    .hero-area .button-box button:hover{
+        box-shadow: 0px 0px 0px 20px #ffffff30;
+    }
+}

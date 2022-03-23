@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#0b0e17">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/destination.css">
+  <title>Destination | Space tourism website | Frontend Mentor</title>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html"><img src="assets/shared/logo.svg" alt="lLogo"></a>
+    <div class="nav-links">
+      <div class="each-nav-link">
+        <a href="index.html"><span>01</span> Home</a>
+      </div>
+      <div class="each-nav-link active">
+        <a href="destination.html"><span>02</span> Destination</a>
+      </div>
+      <div class="each-nav-link">
+        <a href="crew.html"><span>03</span> Crew</a>
+      </div>
+      <div class="each-nav-link">
+        <a href="technology.html"><span>04</span> Technology</a>
+      </div>
+    </div>
+    <div class="menu-close-btn">
+      <img src="assets/shared/icon-hamburger.svg" alt="Menu" class="menu">
+      <img src="assets/shared/icon-close.svg" alt="Close" class="close">
+    </div>
+  </nav>
+  <div class="ghost-nav"></div>
+  <section class="hero-area">
+    <h2>01 Pick your destination</h2>
+    <div class="main-dest-box">
+      <div class="img-box">
+        <img src="assets/destination/image-moon.png" alt="Planets">
+      </div>
+      <div class="detail-box">
+        <div class="dest-option-box">
+          <div class="each-dest">
+            <p class="active">Moon</p>
+          </div>
+          <div class="each-dest">
+            <p>Mars</p>
+          </div>
+          <div class="each-dest">
+            <p>Europa</p>
+          </div>
+          <div class="each-dest">
+            <p>Titan</p>
+          </div>
+        </div>
+        <div class="text-box">
+          <h1>Moon</h1>
+          <p class="desc">See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+            regain perspective and come back refreshed. While you’re there, take in some history
+            by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <hr>
+          <div class="measures-box">
+            <div class="each-measure">
+              <h3>Avg. distance</h3>
+              <p class="distance">384,400 km</p>
+            </div>
+            <div class="each-measure">
+              <h3>Est. travel time</h3>
+              <p class="time">3 days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/nav.js" type="text/javascript"></script>
+  <script src="js/data.js"></script>
+  <script src="js/destination.js" type="text/javascript"></script>
+</body>
+
+</html>
